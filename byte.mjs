@@ -20,6 +20,12 @@ class Byte {
     }
 
     /**
+     * Gets the size of the byte in bits.
+     * @returns {number} Size in bits.
+     */
+    get size() { return this.#size; }
+
+    /**
      * Sets the value of the byte by bit array.
      * @param {number[]} bitArray Array of ones and zeroes.
      * @returns {void}
