@@ -44,3 +44,5 @@ class Byte {
         return [...this.#bits];
     }
 }
+
+export default Byte;
